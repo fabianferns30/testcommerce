@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="fe1f0165-ad28-4206-811f-50e40654f28e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -169,7 +172,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598105180104</updated>
-      <workItem from="1598105181198" duration="4885000" />
+      <workItem from="1598105181198" duration="9868000" />
     </task>
     <servers />
   </component>
@@ -177,6 +180,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="449" y="154" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1598114329889">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="449" y="154" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/67.27.1299.741@67.27.1299.741" timestamp="1598114329889" />
     <state x="494" y="140" width="424" height="513" key="FileChooserDialogImpl" timestamp="1598107561044">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -185,9 +192,13 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="512" y="322" width="399" height="149" key="NewPhpFileDialog/67.27.1299.741@67.27.1299.741" timestamp="1598109546058" />
-    <state x="379" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1598109767425">
+    <state x="406" y="135" width="620" height="522" key="find.popup" timestamp="1598110152361">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="379" y="89" width="672" height="678" key="search.everywhere.popup/67.27.1299.741@67.27.1299.741" timestamp="1598109767425" />
+    <state x="406" y="135" width="620" height="522" key="find.popup/67.27.1299.741@67.27.1299.741" timestamp="1598110152361" />
+    <state x="379" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1598114151907">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="379" y="89" width="672" height="678" key="search.everywhere.popup/67.27.1299.741@67.27.1299.741" timestamp="1598114151907" />
   </component>
 </project>

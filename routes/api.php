@@ -17,3 +17,9 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::match(['get'], 'categories', 'CategoriesController@index');
+Route::match(['get'], 'products', 'ProductController@index');
+Route::match(['post'], 'products/create', 'ProductController@create');
+Route::match(['get'], 'products/view/{product_id}', 'ProductController@create');
+

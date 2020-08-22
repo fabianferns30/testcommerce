@@ -11,35 +11,34 @@ class CateroriesTableSeeder extends Seeder
      */
     public function run()
     {
-        //
-        $adminUsers = collect([
+        $categories = collect([
             [
-                'name'      => 'men',
+                'name' => 'men',
             ],
             [
-                'name'      => 'women',
-            ],
-            [
-                'parent_id' => 'men',
-                'name'      => 'shirt',
+                'name' => 'women',
             ],
             [
                 'parent_id' => 'men',
-                'name'      => 'tshirt',
+                'name' => 'shirt',
+            ],
+            [
+                'parent_id' => 'men',
+                'name' => 'tshirt',
             ],
             [
                 'parent_id' => 'women',
-                'name'      => 'tshirt',
+                'name' => 'tshirt',
             ],
             [
                 'parent_id' => 'women',
-                'name'      => 'dress',
+                'name' => 'dress',
             ],
 
         ]);
 
-        $adminUsers->each(function($item, $key)
-        {
+        $categories->each(function ($item, $key) {
             \App\Model\Categories::query()->create($item);
-        });    }
+        });
+    }
 }
